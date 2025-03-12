@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "env": {
+    "GOOGLE_CLOUD_FUNCTION_URL": "https://deeptechai-7273413872l.us-central1.run.app"
+  }
+} 
