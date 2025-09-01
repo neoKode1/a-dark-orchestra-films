@@ -10,9 +10,9 @@ const PageLayout = ({ children }: PageLayoutProps) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="flex-grow">
+      <main className="flex-grow">
         {children}
-      </div>
+      </main>
       <Footer />
     </div>
   );

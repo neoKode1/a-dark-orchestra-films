@@ -1,13 +1,27 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Poppins } from 'next/font/google';
 import '@/styles/globals.css';
 import { cn } from '@/lib/utils';
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
+const inter = Inter({ 
+  subsets: ['latin'], 
+  variable: '--font-inter',
+  display: 'swap'
+});
+
+const poppins = Poppins({ 
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-poppins',
+  display: 'swap'
+});
 
 export const metadata: Metadata = {
-  title: 'DeepTech AI',
-  description: 'Innovative AI solutions for the future',
+  title: 'A Dark Orchestra Films - Multimedia AI Film Company',
+  description: 'Revolutionary multimedia AI film company creating cutting-edge content through artificial intelligence, created by visionary filmmaker Chad Neo. Experience the future of filmmaking.',
+  keywords: 'AI film, multimedia, dark orchestra, Chad Neo, artificial intelligence, filmmaking, content creation, videography',
+  authors: [{ name: 'A Dark Orchestra Films' }],
+  viewport: 'width=device-width, initial-scale=1',
 };
 
 export default function RootLayout({
@@ -16,10 +30,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body className={cn(
         "min-h-screen bg-background font-sans antialiased",
-        inter.variable
+        inter.variable,
+        poppins.variable
       )}>
         {children}
       </body>
