@@ -48,7 +48,7 @@ Our latest productions showcase the cutting-edge capabilities of AI in filmmakin
 
 ## Contact
 
-- **Email**: info@adarkorchestrafilms.com
+- **Email**: 1deeptechnology@gmail.com
 - **Location**: San Francisco, CA
 - **Website**: [adarkorchestrafilms.com](https://adarkorchestrafilms.com)
 

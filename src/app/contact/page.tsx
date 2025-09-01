@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/media/u3538638467_httpss.mj.runSoO7WIhXebc_Massive_quantum_processi_3ccafacd-38f5-44cd-aa8b-be6c548bb071_0.png"
-            alt="Contact DeepTech AI"
+            alt="Contact A Dark Orchestra Films"
             fill
             className="object-cover opacity-60"
             priority
@@ -41,7 +41,7 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
               {/* Twitter */}
               <a 
-                href="https://x.com/io2Medusa" 
+                href="https://x.com/JusChadneo" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex flex-col items-center p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-all hover:-translate-y-1"
