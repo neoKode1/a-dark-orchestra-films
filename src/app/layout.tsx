@@ -21,7 +21,11 @@ export const metadata: Metadata = {
   description: 'Revolutionary multimedia AI film company creating cutting-edge content through artificial intelligence, created by visionary filmmaker Chad Neo. Experience the future of filmmaking.',
   keywords: 'AI film, multimedia, dark orchestra, Chad Neo, artificial intelligence, filmmaking, content creation, videography',
   authors: [{ name: 'A Dark Orchestra Films' }],
-  viewport: 'width=device-width, initial-scale=1',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({
