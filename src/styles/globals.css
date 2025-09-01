@@ -73,7 +73,7 @@
   }
 
   .gradient-bg {
-    @apply bg-gradient-to-br from-black via-gray-900 to-black;
+    @apply bg-black;
   }
 
   .glass-effect {
@@ -128,7 +128,7 @@
   }
 
   .mega-title {
-    font-size: clamp(3.45rem, 13.8vw, 18.4rem);
+    font-size: clamp(3.45rem, 12vw, 16rem);
     line-height: 0.85;
     font-weight: 900;
     letter-spacing: -0.02em;
@@ -138,9 +138,10 @@
 
   @media (max-width: 768px) {
     .mega-title {
-      font-size: clamp(2.875rem, 9.2vw, 9.2rem);
+      font-size: clamp(2.875rem, 8vw, 8rem);
       line-height: 0.9;
       white-space: normal;
+      word-break: break-word;
     }
   }
 } 

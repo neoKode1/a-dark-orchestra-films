@@ -274,7 +274,7 @@ export default function Gallery() {
       </section>
 
       {/* Image Gallery Section */}
-      <section className="py-24 bg-gradient-to-b from-gray-900 to-black">
+      <section className="py-24 bg-black">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">
@@ -417,19 +417,14 @@ export default function Gallery() {
                 priority
               />
               
-              {/* Image Info */}
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <div className="glass-effect rounded-lg p-4">
-                  <div className="flex items-center space-x-2 mb-2">
-                    <Camera className="w-5 h-5 text-red-400" />
-                    <span className="font-body text-sm text-red-300">{images[selectedImage].category}</span>
-                  </div>
-                  <h3 className="font-heading text-lg font-semibold">{images[selectedImage].alt}</h3>
-                  <p className="font-body text-sm text-white/70 mt-2">
-                    {selectedImage + 1} of {images.length}
-                  </p>
-                </div>
-              </div>
+                             {/* Image Info */}
+               <div className="absolute bottom-4 left-4 right-4 text-white">
+                 <div className="glass-effect rounded-lg p-4">
+                   <p className="font-body text-sm text-white/70">
+                     {selectedImage + 1} of {images.length}
+                   </p>
+                 </div>
+               </div>
             </div>
           </div>
         </div>

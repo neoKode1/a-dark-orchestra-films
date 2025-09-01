@@ -36,23 +36,25 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 container mx-auto px-4">
-          <div className="max-w-7xl mx-auto">
-            {/* Badge */}
-            <div className="inline-flex items-center space-x-2 glass-effect rounded-full px-6 py-3 mb-8 animate-glow">
-              <Film className="w-5 h-5 text-red-400" />
-              <span className="font-body text-white/90 text-sm font-medium">
-                Multimedia AI Film Company
-              </span>
-            </div>
+                 <div className="relative z-10 container mx-auto px-4">
+           <div className="w-full">
+                           {/* Badge */}
+              <div className="flex justify-center mb-8">
+                <div className="inline-flex items-center space-x-2 glass-effect rounded-full px-6 py-3 animate-glow">
+                  <Film className="w-5 h-5 text-red-400" />
+                  <span className="font-body text-white/90 text-sm font-medium">
+                    Multimedia AI Film Company
+                  </span>
+                </div>
+              </div>
 
-            {/* MASSIVE TITLE - Left Aligned with reduced opacity */}
-            <div className="mb-8 px-4">
-              <h1 className="mega-title font-heading font-black text-red-500/70 text-shadow-red leading-none text-left">
-                A DARK<br />
-                ORCHESTRA
-              </h1>
-            </div>
+             {/* MASSIVE TITLE - Left Aligned with reduced opacity */}
+             <div className="mb-8">
+               <h1 className="mega-title font-heading font-black text-red-500/70 text-shadow-red leading-none text-left">
+                 A DARK<br />
+                 ORCHESTRA
+               </h1>
+             </div>
 
             {/* Subtitle */}
             <p className="font-body text-lg md:text-xl text-white/70 mb-12 max-w-3xl leading-relaxed px-4 text-left">
@@ -108,7 +110,7 @@ export default function Home() {
       </section>
 
       {/* Featured Content */}
-      <section className="py-24 bg-gradient-to-b from-gray-900 to-black">
+      <section className="py-24 bg-black">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">

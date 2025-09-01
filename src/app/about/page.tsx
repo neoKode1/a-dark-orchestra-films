@@ -28,7 +28,7 @@ export default function About() {
       </section>
 
       {/* About Content */}
-      <section className="py-24 bg-gradient-to-b from-gray-900 to-black text-white">
+      <section className="py-24 bg-black text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-heading text-4xl font-bold mb-8 text-center">
@@ -61,7 +61,7 @@ export default function About() {
             <h2 className="font-heading text-4xl font-bold mb-8 text-center">
               Meet <span className="gradient-text">Chad Neo</span>
             </h2>
-            <div className="bg-gray-800/50 rounded-2xl p-8 mb-12">
+            <div className="bg-black/50 rounded-2xl p-8 mb-12">
               <div className="flex items-center space-x-4 mb-6">
                 <div className="w-16 h-16 bg-red-500/20 rounded-full flex items-center justify-center">
                   <Film className="w-8 h-8 text-red-400" />

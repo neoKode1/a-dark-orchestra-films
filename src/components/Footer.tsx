@@ -72,7 +72,7 @@ const Footer = () => {
                 <FaGithub className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
               </a>
               <a 
-                href="https://youtube.com/@adarkorchestra" 
+                href="https://www.youtube.com/@ADarkOrchestraFilms" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="glass-effect p-3 rounded-lg hover:bg-white/20 transition-all duration-300 group"
